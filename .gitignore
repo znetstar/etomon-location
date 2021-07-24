@@ -1,0 +1,12 @@
+.DS_STORE
+.vscode
+.tscache
+node_modules
+lib/
+.idea
+*.tmp.txt
+tscommand*
+misc/geoip
+misc/geoip.7z
+
+misc/test-data.json

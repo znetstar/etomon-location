@@ -1,0 +1,2068 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GeoResolver | @etomon/etomon-location</title>
+	<meta name="description" content="Documentation for @etomon/etomon-location">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@etomon/etomon-location</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@etomon/etomon-location</a>
+				</li>
+				<li>
+					<a href="GeoResolver.html">GeoResolver</a>
+				</li>
+			</ul>
+			<h1>Class GeoResolver</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Accepts input in the form of a <code>EtomonLocationQuery</code> and returns matching <code>EtomonLocation</code>s.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">GeoResolver</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="GeoResolver.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#encoder" class="tsd-kind-icon">encoder</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#geoipInstance" class="tsd-kind-icon">geoip<wbr>Instance</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="GeoResolver.html#googleApiKey" class="tsd-kind-icon">google<wbr>Api<wbr>Key</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="GeoResolver.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="GeoResolver.html#pathToGeoIPCity" class="tsd-kind-icon">path<wbr>ToGeoIPCity</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GeoResolver.html#resolvePriority" class="tsd-kind-icon">resolve<wbr>Priority</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#assembleAddressComponents" class="tsd-kind-icon">assemble<wbr>Address<wbr>Components</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#autocompleteSearch" class="tsd-kind-icon">autocomplete<wbr>Search</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#cacheKey" class="tsd-kind-icon">cache<wbr>Key</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#getCountryInfo" class="tsd-kind-icon">get<wbr>Country<wbr>Info</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#getLocationFromCache" class="tsd-kind-icon">get<wbr>Location<wbr>From<wbr>Cache</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#getLocationsFromCache" class="tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#getLocationsFromCacheCount" class="tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#getTimezone" class="tsd-kind-icon">get<wbr>Timezone</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#loadGeoIp" class="tsd-kind-icon">load<wbr>Geo<wbr>Ip</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#makeGoogleRequest" class="tsd-kind-icon">make<wbr>Google<wbr>Request</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#processGoogleResponse" class="tsd-kind-icon">process<wbr>Google<wbr>Response</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#queryFromLocation" class="tsd-kind-icon">query<wbr>From<wbr>Location</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocation" class="tsd-kind-icon">resolve<wbr>Location</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocationByAddress" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocationByAddressComponents" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<wbr>Components</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocationByIpAddress" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByIp<wbr>Address</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocationByLatitudeAndLongitude" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocationByPlaceId" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByPlace<wbr>Id</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveLocations" class="tsd-kind-icon">resolve<wbr>Locations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="GeoResolver.html#resolveLocationsInner" class="tsd-kind-icon">resolve<wbr>Locations<wbr>Inner</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoResolver.html#resolveOneLocation" class="tsd-kind-icon">resolve<wbr>One<wbr>Location</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="GeoResolver.html#geoJSONFromLatLng" class="tsd-kind-icon">geoJSONFrom<wbr>Lat<wbr>Lng</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="GeoResolver.html#locationFromQuery" class="tsd-kind-icon">location<wbr>From<wbr>Query</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="GeoResolver.html#queryFromLocation-1" class="tsd-kind-icon">query<wbr>From<wbr>Location</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Geo<wbr>Resolver<span class="tsd-signature-symbol">(</span>googleApiKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, pathToGeoIPCity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/GeoResolverOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GeoResolverOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GeoResolver.html" class="tsd-signature-type" data-tsd-kind="Class">GeoResolver</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L119">api/server/GeoResolver.ts:119</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>googleApiKey: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>API Key for the Google Places, Autocomplete, and Geocoding APIs (API key must have accesse to all three).</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<h5>pathToGeoIPCity: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Path to the Maxmind GeoIP City database.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/GeoResolverOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GeoResolverOptions</a><span class="tsd-signature-symbol"> = ...</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Extra options</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="GeoResolver.html" class="tsd-signature-type" data-tsd-kind="Class">GeoResolver</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="encoder" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> encoder</h3>
+					<div class="tsd-signature tsd-kind-icon">encoder<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EncodeToolsAuto</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L111">api/server/GeoResolver.ts:111</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="geoipInstance" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> geoip<wbr>Instance</h3>
+					<div class="tsd-signature tsd-kind-icon">geoip<wbr>Instance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">default</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L126">api/server/GeoResolver.ts:126</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="googleApiKey" class="tsd-anchor"></a>
+					<h3>google<wbr>Api<wbr>Key</h3>
+					<div class="tsd-signature tsd-kind-icon">google<wbr>Api<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="options" class="tsd-anchor"></a>
+					<h3>options</h3>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/GeoResolverOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GeoResolverOptions</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pathToGeoIPCity" class="tsd-anchor"></a>
+					<h3>path<wbr>ToGeoIPCity</h3>
+					<div class="tsd-signature tsd-kind-icon">path<wbr>ToGeoIPCity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="resolvePriority" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Priority</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> resolvePriority<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/LocationResolvePriorities.html" class="tsd-signature-type" data-tsd-kind="Enumeration">LocationResolvePriorities</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L122">api/server/GeoResolver.ts:122</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../enums/LocationResolvePriorities.html" class="tsd-signature-type" data-tsd-kind="Enumeration">LocationResolvePriorities</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="assembleAddressComponents" class="tsd-anchor"></a>
+					<h3>assemble<wbr>Address<wbr>Components</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">assemble<wbr>Address<wbr>Components<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">assemble<wbr>Address<wbr>Components<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">assemble<wbr>Address<wbr>Components<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L378">api/server/GeoResolver.ts:378</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a key-value pair of address components (for the Google Places API) from a <code>EtomonLocationQuery</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L383">api/server/GeoResolver.ts:383</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a key-value pair of address components (for the Google Places API) from a <code>EtomonLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L388">api/server/GeoResolver.ts:388</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a key-value pair of address components (for the Google Places API).</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="autocompleteSearch" class="tsd-anchor"></a>
+					<h3>autocomplete<wbr>Search</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">autocomplete<wbr>Search<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../interfaces/AutocompleteQuery.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/AutocompleteResult.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteResult</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1051">api/server/GeoResolver.ts:1051</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the Google Autocomplete API to return autocomplete matches.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../interfaces/AutocompleteQuery.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/AutocompleteResult.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteResult</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="cacheKey" class="tsd-anchor"></a>
+					<h3>cache<wbr>Key</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">cache<wbr>Key<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">cache<wbr>Key<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">cache<wbr>Key<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L732">api/server/GeoResolver.ts:732</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a hash of the input object to be used as a cache key (if cache is enabled)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L737">api/server/GeoResolver.ts:737</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a hash of the input object to be used as a cache key (if cache is enabled)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L742">api/server/GeoResolver.ts:742</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a hash of the input object to be used as a cache key (if cache is enabled)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getCountryInfo" class="tsd-anchor"></a>
+					<h3>get<wbr>Country<wbr>Info</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Country<wbr>Info<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Country<wbr>Info<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Country<wbr>Info<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L453">api/server/GeoResolver.ts:453</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains arbitrary country data (like language and phone code) that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L458">api/server/GeoResolver.ts:458</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains arbitrary country data (like language and phone code) that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L463">api/server/GeoResolver.ts:463</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains arbitrary country data (like language and phone code) that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getLocationFromCache" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Location<wbr>From<wbr>Cache</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Location<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Location<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Location<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L756">api/server/GeoResolver.ts:756</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single item from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L761">api/server/GeoResolver.ts:761</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single item from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L766">api/server/GeoResolver.ts:766</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single item from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getLocationsFromCache" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Locations<wbr>From<wbr>Cache</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L779">api/server/GeoResolver.ts:779</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L784">api/server/GeoResolver.ts:784</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L789">api/server/GeoResolver.ts:789</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getLocationsFromCacheCount" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L817">api/server/GeoResolver.ts:817</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the count of items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L822">api/server/GeoResolver.ts:822</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the count of items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L827">api/server/GeoResolver.ts:827</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the count of items from cache matching the provided query, if found</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getTimezone" class="tsd-anchor"></a>
+					<h3>get<wbr>Timezone</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Timezone<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a>, timestamp<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Timezone<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a>, timestamp<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Timezone<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a>, timestamp<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L413">api/server/GeoResolver.ts:413</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains the timezone that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> timestamp: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L418">api/server/GeoResolver.ts:418</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains the timezone that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> timestamp: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L423">api/server/GeoResolver.ts:423</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains the timezone that corresponds to the location data provided, appending it to the <code>EtomonLocation</code> object.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> timestamp: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="loadGeoIp" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> load<wbr>Geo<wbr>Ip</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Geo<wbr>Ip<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">default</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L128">api/server/GeoResolver.ts:128</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">default</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="makeGoogleRequest" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> make<wbr>Google<wbr>Request</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">make<wbr>Google<wbr>Request<span class="tsd-signature-symbol">(</span>qs<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span>, query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a>, api<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L359">api/server/GeoResolver.ts:359</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Makes a request to a Google API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>qs: <span class="tsd-signature-symbol">{}</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Query string to be used in the URL for the API request</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-index-signature">
+											<h5><span class="tsd-signature-symbol">[</span>name: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Query to be sent</p>
+									</div>
+								</li>
+								<li>
+									<h5>api: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &#x27;geocode&#x27;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Which Google API to consume</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="processGoogleResponse" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> process<wbr>Google<wbr>Response</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">process<wbr>Google<wbr>Response<span class="tsd-signature-symbol">(</span>$result<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a>, googleResponse<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L155">api/server/GeoResolver.ts:155</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Processes the response of a Google API request, overlaying each result of the API response on top of the original
+									<code>EtomonLocationQueryOrResult</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>$result: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Original <code>EtomonLocationQueryOrResult</code></p>
+									</div>
+								</li>
+								<li>
+									<h5>googleResponse: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The API response from Google</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="queryFromLocation" class="tsd-anchor"></a>
+					<h3>query<wbr>From<wbr>Location</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L268">api/server/GeoResolver.ts:268</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocationQuery</code> given the information in an <code>EtomonLocation</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L273">api/server/GeoResolver.ts:273</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the <code>EtomonLocationQuery</code> passed unchanged</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L279">api/server/GeoResolver.ts:279</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocationQuery</code> given the information in an <code>EtomonLocation</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L284">api/server/GeoResolver.ts:284</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns <code>null</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocation" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L841">api/server/GeoResolver.ts:841</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loops through the list of <code>resolvePriorities</code> returning matching <code>EtomonLocation</code>s</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L846">api/server/GeoResolver.ts:846</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loops through the list of <code>resolvePriorities</code> returning matching <code>EtomonLocation</code>s</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L851">api/server/GeoResolver.ts:851</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loops through the list of <code>resolvePriorities</code> returning matching <code>EtomonLocation</code>s</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocationByAddress" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location<wbr>ByAddress</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L524">api/server/GeoResolver.ts:524</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L529">api/server/GeoResolver.ts:529</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L534">api/server/GeoResolver.ts:534</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocationByAddressComponents" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location<wbr>ByAddress<wbr>Components</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<wbr>Components<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<wbr>Components<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<wbr>Components<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L605">api/server/GeoResolver.ts:605</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the individual address components (like city or country) contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L610">api/server/GeoResolver.ts:610</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the individual address components (like city or country) contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L615">api/server/GeoResolver.ts:615</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the individual address components (like city or country) contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocationByIpAddress" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location<wbr>ByIp<wbr>Address</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByIp<wbr>Address<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByIp<wbr>Address<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByIp<wbr>Address<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L650">api/server/GeoResolver.ts:650</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the IP address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L655">api/server/GeoResolver.ts:655</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the IP address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L660">api/server/GeoResolver.ts:660</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the IP address contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocationByLatitudeAndLongitude" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L490">api/server/GeoResolver.ts:490</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the geographic coordinates contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L495">api/server/GeoResolver.ts:495</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the geographic coordinates contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L500">api/server/GeoResolver.ts:500</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the geographic coordinates contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocationByPlaceId" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Location<wbr>ByPlace<wbr>Id</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByPlace<wbr>Id<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByPlace<wbr>Id<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Location<wbr>ByPlace<wbr>Id<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L562">api/server/GeoResolver.ts:562</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the Google Places API place id contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L567">api/server/GeoResolver.ts:567</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the Google Places API place id contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L572">api/server/GeoResolver.ts:572</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the Google Places API place id contained in the input object to find corresponding locations using the Google Places API</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocations" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Locations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Locations<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Locations<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Locations<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1075">api/server/GeoResolver.ts:1075</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all matching <code>EtomonLocation</code> objects from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1080">api/server/GeoResolver.ts:1080</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all matching <code>EtomonLocation</code> objects from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1085">api/server/GeoResolver.ts:1085</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all matching <code>EtomonLocation</code> objects from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="resolveLocationsInner" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> resolve<wbr>Locations<wbr>Inner</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Locations<wbr>Inner<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1126">api/server/GeoResolver.ts:1126</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Used internally to aggregate <code>EtomonLocation</code>s objects.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncGenerator</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveOneLocation" class="tsd-anchor"></a>
+					<h3>resolve<wbr>One<wbr>Location</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>One<wbr>Location<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>One<wbr>Location<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>One<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1025">api/server/GeoResolver.ts:1025</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single <code>EtomonLocation</code> object from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1030">api/server/GeoResolver.ts:1030</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single <code>EtomonLocation</code> object from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L1035">api/server/GeoResolver.ts:1035</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single <code>EtomonLocation</code> object from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="geoJSONFromLatLng" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> geoJSONFrom<wbr>Lat<wbr>Lng</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">geoJSONFrom<wbr>Lat<wbr>Lng<span class="tsd-signature-symbol">(</span>coordinates<span class="tsd-signature-symbol">: </span><a href="../modules.html#GeoJSONCoordinates" class="tsd-signature-type" data-tsd-kind="Type alias">GeoJSONCoordinates</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/GeoJSONLocation.html" class="tsd-signature-type" data-tsd-kind="Interface">GeoJSONLocation</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L142">api/server/GeoResolver.ts:142</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>GeoJSONLocation</code> given <code>GeoJSONCoordinates</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>coordinates: <a href="../modules.html#GeoJSONCoordinates" class="tsd-signature-type" data-tsd-kind="Type alias">GeoJSONCoordinates</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/GeoJSONLocation.html" class="tsd-signature-type" data-tsd-kind="Interface">GeoJSONLocation</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="locationFromQuery" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> location<wbr>From<wbr>Query</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">location<wbr>From<wbr>Query<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+						<li class="tsd-signature tsd-kind-icon">location<wbr>From<wbr>Query<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+						<li class="tsd-signature tsd-kind-icon">location<wbr>From<wbr>Query<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></li>
+						<li class="tsd-signature tsd-kind-icon">location<wbr>From<wbr>Query<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L218">api/server/GeoResolver.ts:218</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocation</code> given the information in an <code>EtomonLocationQuery</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L223">api/server/GeoResolver.ts:223</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the <code>EtomonLocation</code> passed unchanged</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L229">api/server/GeoResolver.ts:229</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocation</code> given the information in an <code>EtomonLocationQuery</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L234">api/server/GeoResolver.ts:234</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns <code>null</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <span class="tsd-signature-type">null</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="queryFromLocation-1" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> query<wbr>From<wbr>Location</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>location<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>From<wbr>Location<span class="tsd-signature-symbol">(</span>input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L300">api/server/GeoResolver.ts:300</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocationQuery</code> given the information in an <code>EtomonLocation</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>location: <a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L305">api/server/GeoResolver.ts:305</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the <code>EtomonLocationQuery</code> passed unchanged</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L311">api/server/GeoResolver.ts:311</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a <code>EtomonLocationQuery</code> given the information in an <code>EtomonLocation</code>.
+									Missing fields are left null or undefined</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQueryOrResult</a></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/b05ab7a/src/api/server/GeoResolver.ts#L316">api/server/GeoResolver.ts:316</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns <code>null</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>input: <span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="../enums/GeoJSONLocationType.html" class="tsd-kind-icon">GeoJSONLocation<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="../enums/LocationResolvePriorities.html" class="tsd-kind-icon">Location<wbr>Resolve<wbr>Priorities</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="GeoClient.html" class="tsd-kind-icon">Geo<wbr>Client</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="GeoResolver.html" class="tsd-kind-icon">Geo<wbr>Resolver</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="GeoResolver.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#encoder" class="tsd-kind-icon">encoder</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#geoipInstance" class="tsd-kind-icon">geoip<wbr>Instance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="GeoResolver.html#googleApiKey" class="tsd-kind-icon">google<wbr>Api<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="GeoResolver.html#options" class="tsd-kind-icon">options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="GeoResolver.html#pathToGeoIPCity" class="tsd-kind-icon">path<wbr>ToGeoIPCity</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolvePriority" class="tsd-kind-icon">resolve<wbr>Priority</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#assembleAddressComponents" class="tsd-kind-icon">assemble<wbr>Address<wbr>Components</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#autocompleteSearch" class="tsd-kind-icon">autocomplete<wbr>Search</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#cacheKey" class="tsd-kind-icon">cache<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#getCountryInfo" class="tsd-kind-icon">get<wbr>Country<wbr>Info</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#getLocationFromCache" class="tsd-kind-icon">get<wbr>Location<wbr>From<wbr>Cache</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#getLocationsFromCache" class="tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#getLocationsFromCacheCount" class="tsd-kind-icon">get<wbr>Locations<wbr>From<wbr>Cache<wbr>Count</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#getTimezone" class="tsd-kind-icon">get<wbr>Timezone</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#loadGeoIp" class="tsd-kind-icon">load<wbr>Geo<wbr>Ip</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#makeGoogleRequest" class="tsd-kind-icon">make<wbr>Google<wbr>Request</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#processGoogleResponse" class="tsd-kind-icon">process<wbr>Google<wbr>Response</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#queryFromLocation" class="tsd-kind-icon">query<wbr>From<wbr>Location</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocation" class="tsd-kind-icon">resolve<wbr>Location</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocationByAddress" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocationByAddressComponents" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByAddress<wbr>Components</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocationByIpAddress" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByIp<wbr>Address</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocationByLatitudeAndLongitude" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByLatitude<wbr>And<wbr>Longitude</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocationByPlaceId" class="tsd-kind-icon">resolve<wbr>Location<wbr>ByPlace<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveLocations" class="tsd-kind-icon">resolve<wbr>Locations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoResolver.html#resolveLocationsInner" class="tsd-kind-icon">resolve<wbr>Locations<wbr>Inner</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoResolver.html#resolveOneLocation" class="tsd-kind-icon">resolve<wbr>One<wbr>Location</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="GeoResolver.html#geoJSONFromLatLng" class="tsd-kind-icon">geoJSONFrom<wbr>Lat<wbr>Lng</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="GeoResolver.html#locationFromQuery" class="tsd-kind-icon">location<wbr>From<wbr>Query</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="GeoResolver.html#queryFromLocation-1" class="tsd-kind-icon">query<wbr>From<wbr>Location</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/AutocompleteQuery.html" class="tsd-kind-icon">Autocomplete<wbr>Query</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/AutocompleteResult.html" class="tsd-kind-icon">Autocomplete<wbr>Result</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/EtomonLocationBase.html" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Base</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoJSONLocation.html" class="tsd-kind-icon">GeoJSONLocation</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoJSONQuery.html" class="tsd-kind-icon">GeoJSONQuery</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoResolverOptions.html" class="tsd-kind-icon">Geo<wbr>Resolver<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/IGeoClient.html" class="tsd-kind-icon">IGeo<wbr>Client</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/RouterOptions.html" class="tsd-kind-icon">Router<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocation" class="tsd-kind-icon">Etomon<wbr>Location</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocationQuery" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Query</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Query<wbr>OrResult</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#GeoJSONCoordinates" class="tsd-kind-icon">GeoJSONCoordinates</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="../modules.html#ValueOrNegate" class="tsd-kind-icon">Value<wbr>OrNegate</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultEncodingOptions" class="tsd-kind-icon">default<wbr>Encoding<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultGeoResolverOptions" class="tsd-kind-icon">default<wbr>Geo<wbr>Resolver<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultResolvePriorities" class="tsd-kind-icon">default<wbr>Resolve<wbr>Priorities</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#LabelLocation" class="tsd-kind-icon">Label<wbr>Location</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#LabelLocationSafe" class="tsd-kind-icon">Label<wbr>Location<wbr>Safe</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#createRouter" class="tsd-kind-icon">create<wbr>Router</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

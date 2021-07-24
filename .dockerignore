@@ -1,0 +1,11 @@
+.DS_STORE
+.vscode
+.tscache
+node_modules
+.git
+.gitignore
+lib
+tscommand*
+misc/geoip
+misc/geoip.7z
+misc/test-data.json
