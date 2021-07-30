@@ -1,6 +1,4 @@
-import { Router } from 'express';
-import * as bodyParser from 'body-parser';
-import {Server as RPCServer, JSONSerializer} from 'multi-rpc';
+import {Server as RPCServer} from 'multi-rpc';
 import { ExpressTransport } from 'multi-rpc-express-transport';
 import GeoResolver from './GeoResolver';
 import {
@@ -101,8 +99,8 @@ export class GeoRPCHandler implements  IGeoRPCHandler {
  * takes a Google Place ID as the sole parameter (`/:googlePlaceId`).
  * @param geo
  */
-export function createRouter(geo: GeoResolver, options: RouterOptions = { defaultRequestBodyLimit: 10e3 }) {
-  const router = Router();
+export function createRouter(geo: GeoResolver) {
+  const router = require('express').Router();
 
   const transport = new ExpressTransport(new EncodeToolsSerializer(defaultEncodingOptions), /*rpcRouter*/router);
   const handler = new GeoRPCHandler(geo);

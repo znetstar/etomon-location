@@ -65,7 +65,7 @@ export interface AutocompleteQuery {
    * See the Google documentation for more info: https://zb.gy/Ayxh
    */
   // @ts-ignore
-  types?: string|{ region?: string },
+  types?: any,//string|{ region?: string },
   /**
    * Point to search for results within. Useful to differentiate "Venice, California" from "Venice, Florida" or "Venice, Italy"
    */
