@@ -74,9 +74,7 @@ export class GeoRPCHandler implements  IGeoRPCHandler {
   }
 
   resolveOneLocation = async (query:EtomonLocationQuery) => {
-    for await (const ele of (this.geo.resolveLocations(query))) {
-      return ele;
-    }
+    return this.geo.resolveOneLocation(query);
   }
 
   public get methodHost(): IGeoRPCHandler {
