@@ -1,0 +1,421 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GeoRPCHandler | @etomon/etomon-location</title>
+	<meta name="description" content="Documentation for @etomon/etomon-location">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@etomon/etomon-location</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@etomon/etomon-location</a>
+				</li>
+				<li>
+					<a href="GeoRPCHandler.html">GeoRPCHandler</a>
+				</li>
+			</ul>
+			<h1>Class GeoRPCHandler</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Accepts input in the form of a <code>EtomonLocationQuery</code> and returns matching <code>EtomonLocation</code>s.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">GeoRPCHandler</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/IGeoRPCHandler.html" class="tsd-signature-type" data-tsd-kind="Interface">IGeoRPCHandler</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="GeoRPCHandler.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="GeoRPCHandler.html#geo" class="tsd-kind-icon">geo</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GeoRPCHandler.html#methodHost" class="tsd-kind-icon">method<wbr>Host</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoRPCHandler.html#autocompleteSearch" class="tsd-kind-icon">autocomplete<wbr>Search</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoRPCHandler.html#resolveLocations" class="tsd-kind-icon">resolve<wbr>Locations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="GeoRPCHandler.html#resolveOneLocation" class="tsd-kind-icon">resolve<wbr>One<wbr>Location</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>GeoRPCHandler<span class="tsd-signature-symbol">(</span>geo<span class="tsd-signature-symbol">: </span><a href="GeoResolver.html" class="tsd-signature-type" data-tsd-kind="Class">GeoResolver</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GeoRPCHandler.html" class="tsd-signature-type" data-tsd-kind="Class">GeoRPCHandler</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/13b7acd/src/api/server/routes.ts#L62">api/server/routes.ts:62</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The underlying GeoResolver to use</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>geo: <a href="GeoResolver.html" class="tsd-signature-type" data-tsd-kind="Class">GeoResolver</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+										</div>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="GeoRPCHandler.html" class="tsd-signature-type" data-tsd-kind="Class">GeoRPCHandler</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="geo" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> geo</h3>
+					<div class="tsd-signature tsd-kind-icon">geo<span class="tsd-signature-symbol">:</span> <a href="GeoResolver.html" class="tsd-signature-type" data-tsd-kind="Class">GeoResolver</a></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="methodHost" class="tsd-anchor"></a>
+					<h3>method<wbr>Host</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> methodHost<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/IGeoRPCHandler.html" class="tsd-signature-type" data-tsd-kind="Interface">IGeoRPCHandler</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/13b7acd/src/api/server/routes.ts#L84">api/server/routes.ts:84</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/IGeoRPCHandler.html" class="tsd-signature-type" data-tsd-kind="Interface">IGeoRPCHandler</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="autocompleteSearch" class="tsd-anchor"></a>
+					<h3>autocomplete<wbr>Search</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">autocomplete<wbr>Search<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../interfaces/AutocompleteQuery.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/AutocompleteResult.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteResult</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/IGeoRPCHandler.html">IGeoRPCHandler</a>.<a href="../interfaces/IGeoRPCHandler.html#autocompleteSearch">autocompleteSearch</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/13b7acd/src/api/server/routes.ts#L65">api/server/routes.ts:65</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Uses the Google Autocomplete API to return autocomplete matches.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../interfaces/AutocompleteQuery.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/AutocompleteResult.html" class="tsd-signature-type" data-tsd-kind="Interface">AutocompleteResult</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveLocations" class="tsd-anchor"></a>
+					<h3>resolve<wbr>Locations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>Locations<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/IGeoRPCHandler.html">IGeoRPCHandler</a>.<a href="../interfaces/IGeoRPCHandler.html#resolveLocations">resolveLocations</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/13b7acd/src/api/server/routes.ts#L70">api/server/routes.ts:70</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns all matching <code>EtomonLocation</code> objects from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolveOneLocation" class="tsd-anchor"></a>
+					<h3>resolve<wbr>One<wbr>Location</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<wbr>One<wbr>Location<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/IGeoRPCHandler.html">IGeoRPCHandler</a>.<a href="../interfaces/IGeoRPCHandler.html#resolveOneLocation">resolveOneLocation</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/EtomonUSA/etomon-location/blob/13b7acd/src/api/server/routes.ts#L78">api/server/routes.ts:78</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a single <code>EtomonLocation</code> object from <code>resolveLocation</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <a href="../modules.html#EtomonLocationQuery" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocationQuery</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules.html#EtomonLocation" class="tsd-signature-type" data-tsd-kind="Type alias">EtomonLocation</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="../enums/GeoJSONLocationType.html" class="tsd-kind-icon">GeoJSONLocation<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="../enums/LocationResolvePriorities.html" class="tsd-kind-icon">Location<wbr>Resolve<wbr>Priorities</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="GeoClient.html" class="tsd-kind-icon">Geo<wbr>Client</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="GeoRPCHandler.html" class="tsd-kind-icon">GeoRPCHandler</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="GeoRPCHandler.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="GeoRPCHandler.html#geo" class="tsd-kind-icon">geo</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="GeoRPCHandler.html#methodHost" class="tsd-kind-icon">method<wbr>Host</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoRPCHandler.html#autocompleteSearch" class="tsd-kind-icon">autocomplete<wbr>Search</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoRPCHandler.html#resolveLocations" class="tsd-kind-icon">resolve<wbr>Locations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="GeoRPCHandler.html#resolveOneLocation" class="tsd-kind-icon">resolve<wbr>One<wbr>Location</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="GeoResolver.html" class="tsd-kind-icon">Geo<wbr>Resolver</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/AutocompleteQuery.html" class="tsd-kind-icon">Autocomplete<wbr>Query</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/AutocompleteResult.html" class="tsd-kind-icon">Autocomplete<wbr>Result</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/EtomonLocationBase.html" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Base</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoJSONLocation.html" class="tsd-kind-icon">GeoJSONLocation</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoJSONQuery.html" class="tsd-kind-icon">GeoJSONQuery</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/GeoResolverOptions.html" class="tsd-kind-icon">Geo<wbr>Resolver<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/IGeoClient.html" class="tsd-kind-icon">IGeo<wbr>Client</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/IGeoRPCHandler.html" class="tsd-kind-icon">IGeoRPCHandler</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/RouterOptions.html" class="tsd-kind-icon">Router<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocation" class="tsd-kind-icon">Etomon<wbr>Location</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocationQuery" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Query</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#EtomonLocationQueryOrResult" class="tsd-kind-icon">Etomon<wbr>Location<wbr>Query<wbr>OrResult</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#GeoJSONCoordinates" class="tsd-kind-icon">GeoJSONCoordinates</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="../modules.html#ValueOrNegate" class="tsd-kind-icon">Value<wbr>OrNegate</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultEncodingOptions" class="tsd-kind-icon">default<wbr>Encoding<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultGeoResolverOptions" class="tsd-kind-icon">default<wbr>Geo<wbr>Resolver<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#defaultResolvePriorities" class="tsd-kind-icon">default<wbr>Resolve<wbr>Priorities</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#LabelLocation" class="tsd-kind-icon">Label<wbr>Location</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#LabelLocationSafe" class="tsd-kind-icon">Label<wbr>Location<wbr>Safe</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#createRouter" class="tsd-kind-icon">create<wbr>Router</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
