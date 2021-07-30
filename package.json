@@ -1,6 +1,6 @@
 {
     "name": "@etomon/etomon-location",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Client/Server library for querying locations",
     "main": "lib/index.js",
     "scripts": {
