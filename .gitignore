@@ -8,5 +8,6 @@ lib/
 tscommand*
 misc/geoip
 misc/geoip.7z
+./geoip.7z
 
 misc/test-data.json
