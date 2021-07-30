@@ -16,14 +16,10 @@ import {Reader} from '@maxmind/geoip2-node';
 import EncodeToolsNative, {
   BinaryEncoding,
   EncodeToolsAuto as EncodeTools, EncodingOptions,
-  HashAlgorithm,
-  IDFormat,
-  SerializationFormat
 } from '@etomon/encode-tools/lib/EncodeToolsAuto';
 import ReaderModel from "@maxmind/geoip2-node/dist/src/readerModel";
 import { LabelLocation, LabelLocationSafe } from "../common/EtomonLocation";
 import { LevelUp } from 'levelup';
-import {EncodeToolsAuto} from "@etomon/encode-tools";
 
 
 /**
