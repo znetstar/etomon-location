@@ -4,9 +4,9 @@ Etomon Location provides a client/server for getting location information (like 
 coordinates (lat/lng), a keyword (like "New York City"), or an IP Address.
 
 The project provides the address resolver (`api/server/GeoResolver`) along with express routes (`api/server/routes`)
-that expose both a REST interface, and a JSON RPC interface to interact with the library remotely.
+that exposes a JSON RPC interface to interact with the library remotely.
 
-A client implementation is also provided (`api/client/GeoClient`) that runs in the browser.
+A client implementation is also provided (`api/client/GeoClient`) that runs in the browser or in node.
 
 ## Requirements
 
