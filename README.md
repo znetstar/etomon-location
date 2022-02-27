@@ -3,8 +3,6 @@
 ![Travis (.com)](https://img.shields.io/travis/com/znetstar/etomon-location)
 ![npm](https://img.shields.io/npm/v/znetstar/etomon-location)
 
-https://app.travis-ci.com/znetstar/etomon-location.svg?branch=master
-
 Etomon Location provides a client/server for getting location information (like country code, or timezone) given inputs like
 coordinates (lat/lng), a keyword (like "New York City"), or an IP Address.
 
