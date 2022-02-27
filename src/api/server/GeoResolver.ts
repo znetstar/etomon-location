@@ -15,8 +15,8 @@ import {countryData, languageData} from '../common/CountryData';
 import {Reader} from '@maxmind/geoip2-node';
 import EncodeToolsNative, {
   BinaryEncoding,
-  EncodeToolsAuto as EncodeTools, EncodingOptions,
-} from '@etomon/encode-tools/lib/EncodeToolsAuto';
+  EncodeTools, EncodingOptions,
+} from '@znetstar/encode-tools/lib/EncodeTools';
 import ReaderModel from "@maxmind/geoip2-node/dist/src/readerModel";
 import { LabelLocation, LabelLocationSafe } from "../common/EtomonLocation";
 import { LevelUp } from 'levelup';

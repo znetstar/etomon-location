@@ -1,5 +1,5 @@
-import {BinaryEncoding, HashAlgorithm, IDFormat, SerializationFormat} from "@etomon/encode-tools/lib/EncodeToolsAuto";
-import {EncodingOptions} from "@etomon/encode-tools/lib/IEncodeTools";
+import {BinaryEncoding, HashAlgorithm, IDFormat, SerializationFormat} from "@znetstar/encode-tools/lib/EncodeTools";
+import {EncodingOptions} from "@znetstar/encode-tools/lib/IEncodeTools";
 
 export enum GeoJSONLocationType {
     point = 'Point'
@@ -234,5 +234,5 @@ export const defaultEncodingOptions: EncodingOptions = {
   uniqueIdFormat: IDFormat.uuidv4,
   binaryEncoding: BinaryEncoding.nodeBuffer,
   hashAlgorithm: HashAlgorithm.xxhash64,
-  serializationFormat: SerializationFormat.cbor
+  serializationFormat: SerializationFormat.msgpack
 };

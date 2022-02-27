@@ -15,7 +15,6 @@ import {
   GeoJSONLocation,
   LabelLocationSafe
 } from "../../api/common/EtomonLocation";
-import {EncodeToolsAuto} from "@etomon/encode-tools";
 import {
   addressSimiliarty,
   distance,

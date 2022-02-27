@@ -13,7 +13,7 @@ import {
   GeoJSONLocation,
   LabelLocationSafe
 } from "../../api/common/EtomonLocation";
-import {EncodeToolsAuto} from "@etomon/encode-tools";
+import {EncodeTools} from "@znetstar/encode-tools";
 import {
   addressSimiliarty,
   distance,
@@ -608,10 +608,16 @@ describe('GeoResolver', async function () {
       const list: EtomonLocation[] = [];
 
       for await (const ele of resolver.resolveLocations(query)) {
+        for (let k in ele) {
+          // @ts-ignore
+          if (typeof(ele[k]) === 'undefined')
+            // @ts-ignore
+            ele[k] = null;
+        }
         list.push(ele);
       }
 
-      const enc = new EncodeToolsAuto(defaultGeoResolverOptions.encodeOptions);
+      const enc = new EncodeTools(defaultGeoResolverOptions.encodeOptions);
 
       const cachedListBuf = await cache.get(cacheKey);
       const cachedList = enc.deserializeObject<EtomonLocation[]>(cachedListBuf);

@@ -1,5 +1,10 @@
 # Etomon Location
 
+![Travis (.com)](https://img.shields.io/travis/com/znetstar/etomon-location)
+![npm](https://img.shields.io/npm/v/znetstar/etomon-location)
+
+https://app.travis-ci.com/znetstar/etomon-location.svg?branch=master
+
 Etomon Location provides a client/server for getting location information (like country code, or timezone) given inputs like
 coordinates (lat/lng), a keyword (like "New York City"), or an IP Address.
 
@@ -36,4 +41,4 @@ You'll need to set the `GOOGLE_API_KEY` and `GEO_IP_CITY_PATH` env variables wit
 
 ## License
 
-This project is licensed under the GNU LGPL-3.0 a copy of which can be found in `LICENSE.txt`. 
+This project is licensed under the GNU LGPL-3.0 a copy of which can be found in `LICENSE.txt`.

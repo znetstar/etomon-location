@@ -11,7 +11,7 @@ import {
   EncodeToolsSerializer,
   HTTPClientTransport, Transport
 } from 'multi-rpc-browser';
-import {EncodingOptions} from "@etomon/encode-tools/lib/IEncodeTools";
+import {EncodingOptions} from "@znetstar/encode-tools/lib/IEncodeTools";
 import {EtomonLocationQueryOrResult} from "../server/GeoResolver";
 
 export class GeoClient implements IGeoClient {

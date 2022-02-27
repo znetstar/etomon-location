@@ -1,5 +1,4 @@
 import {AutocompleteQuery, EtomonLocation, EtomonLocationQuery} from '../common/EtomonLocation';
-import {AutocompleteResult} from "../common/EtomonLocation";
 import {EtomonLocationQueryOrResult} from "../server/GeoResolver";
 
 export interface IGeoClient {
